@@ -13,7 +13,7 @@ function catchKeyPress(keyCount){
 }
 
 function getEditorTitle(){
-    return "How to live long and prosper";
+    return document.getElementById('title').value;
 }
 
 function getEditorContent(){
