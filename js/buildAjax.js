@@ -1,5 +1,5 @@
 function buildAPIURL(){
-    var root = "http://localhost:3000/api/v1/documents/";
+    var root = "https://vast-sands-51356.herokuapp.com/api/v1/documents/";
     var document_id = 1;
 
     return root + document_id;
